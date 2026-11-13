@@ -80,6 +80,7 @@ const int buzzerPin = 8;
 
 ## 6. Arduino IDE 사용 절차
 
+아두이노 다운로드 {https://www.arduino.cc/en/software/}
 1. `도서부_초음파 감지.ino`를 Arduino IDE에서 엽니다.
 2. 보드에서 `Arduino Uno`를 선택합니다.
 3. 연결된 COM 포트를 선택합니다.
