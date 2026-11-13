@@ -88,7 +88,7 @@ const int buzzerPin = 8;
 5. Serial Monitor를 엽니다.
 6. 보드레이트를 `9600 baud`로 설정합니다.
 
-Contact: 2jw5464@gmail.com
+질문 및 문의: 2jw5464@gmail.com
 
 정상적으로 측정되면 다음과 같은 메시지가 출력됩니다.
 
