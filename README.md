@@ -80,13 +80,15 @@ const int buzzerPin = 8;
 
 ## 6. Arduino IDE 사용 절차
 
-<a href="https://www.arduino.cc/en/software/">arduino IDE 홈페이지 링크</a>
+<a href="https://www.arduino.cc/en/software/">arduino IDE 다운로드 페이지 링크</a>
 1. `도서부_초음파 감지.ino`를 Arduino IDE에서 엽니다.
 2. 보드에서 `Arduino Uno`를 선택합니다.
 3. 연결된 COM 포트를 선택합니다.
 4. 코드를 업로드합니다.
 5. Serial Monitor를 엽니다.
 6. 보드레이트를 `9600 baud`로 설정합니다.
+
+Contact: 2jw5464@gmail.com
 
 정상적으로 측정되면 다음과 같은 메시지가 출력됩니다.
 
