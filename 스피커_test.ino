@@ -5,9 +5,8 @@ void setup() {
 }
 
 void loop() {
-  // 피에조에서 1000 Hz 소리를 1초 동안 출력
-  tone(buzzerPin, 1000);
-  delay(1000);
+  tone(buzzerPin, 1000); //주파수 설정(1000 = 1000 Hz)
+  delay(1000); // 소리 지속 시간(1000 = 1초)
 
   // 1초 동안 정지
   noTone(buzzerPin);
