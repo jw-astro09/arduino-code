@@ -9,7 +9,7 @@ void setup() {
   pinMode(echoPin, INPUT);
   pinMode(buzzerPin, OUTPUT);
 
-  Serial.begin(9600);
+  Serial.begin(9600); //serial monitor 속도 = 9600
 }
 
 void loop() {
@@ -41,7 +41,7 @@ void loop() {
 
     if (distance <= detectionDistance) {
       Serial.println("DETECTED");
-      tone(buzzerPin, 1000);
+      tone(buzzerPin, 1000); //피에조 주파수
     } else {
       Serial.println("OUT OF RANGE");
       noTone(buzzerPin);
